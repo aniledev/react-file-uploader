@@ -1,7 +1,12 @@
 import React from "react";
 
 export default class SearchBox extends React.Component {
-  render() {
-    return <div className="SearchBox" />;
+  ender() {
+    return (
+      <div className="SearchBox">
+        <FontAwesomeIcon icon={faSearch} />
+        <input placeholder="Search term" />
+      </div>
+    );
   }
 }
