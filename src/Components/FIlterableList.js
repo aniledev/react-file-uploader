@@ -1,8 +1,6 @@
 import React from "react";
 
-import React, { Component } from "react";
-
-export default class FIlterableList extends Component {
+export default class FIlterableList extends React.Component {
   render() {
     return <div className="FilterableList" />;
   }
