@@ -38,3 +38,10 @@ ReactDOM.render(
 // break the application into single-minded components
 // then decide which data are state and which are props and where state would live in your components hierarchy
 // finally add the interactivity for the user
+
+/*
+HOW TO IMPORT FONT AWESOME COMPONENT
+$ npm install @fortawesome/fontawesome-svg-core
+$ npm install @fortawesome/free-solid-svg-icons
+$ npm install @fortawesome/react-fontawesome
+*/
