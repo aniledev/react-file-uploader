@@ -29,7 +29,7 @@ const FILES = [
 //
 ReactDOM.render(
   <React.StrictMode>
-    // pass the props into the app Component
+    {/*pass the props into the app Component*/}
     <App files={FILES} />
   </React.StrictMode>,
   document.getElementById("root")

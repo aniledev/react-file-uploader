@@ -7,7 +7,7 @@ export default class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <SearchBar />/ // pass files prop along to FilterableList
+        <SearchBar /> {/* pass files prop along to FilterableList */}
         <FiterableList files={this.props.files} />
       </div>
     );
