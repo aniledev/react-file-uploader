@@ -1,4 +1,5 @@
 import React from "react";
+import "../Styles/SearchBar.css";
 import SearchBox from "./SearchBox";
 import FilterOptions from "./FilterOptions";
 
