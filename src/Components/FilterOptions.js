@@ -1,5 +1,9 @@
 import React from "react";
 
-export default function FilterOptions() {
-  return <div className="FilterOptions"></div>;
+import React, { Component } from "react";
+
+export default class FilterOptions extends Component {
+  render() {
+    return <div className="FilterOptions" />;
+  }
 }

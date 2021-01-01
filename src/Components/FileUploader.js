@@ -1,5 +1,9 @@
 import React from "react";
 
-export default function FileUploader() {
-  return <div className="FileUploader"></div>;
+import React, { Component } from "react";
+
+export default class FileUploader extends Component {
+  render() {
+    return <div className="FileUploader" />;
+  }
 }

@@ -1,5 +1,9 @@
 import React from "react";
 
-export default function SearchBox() {
-  return <div className="SearchBox"></div>;
+import React, { Component } from "react";
+
+export default class SearchBox extends Component {
+  render() {
+    return <div className="SearchBox" />;
+  }
 }

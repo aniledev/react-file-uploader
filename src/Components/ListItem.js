@@ -1,5 +1,9 @@
 import React from "react";
 
-export default function ListItem() {
-  return <div className="ListItem"></div>;
+import React, { Component } from "react";
+
+export default class ListItem extends Component {
+  render() {
+    return <div className="ListItem">
+  }
 }
