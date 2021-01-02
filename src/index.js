@@ -36,7 +36,9 @@ ReactDOM.render(
 );
 
 // break the application into single-minded components
-// then decide which data are state and which are props and where state would live in your components hierarchy
+// then decide which data are state and which props are needed and where state would live in your components hierarchy
+// have a working React application with a hierarchy of mponents passing data to each other via props, with no interactivity with the user just yet
+// then add basic styling
 // finally add the interactivity for the user
 
 /*
