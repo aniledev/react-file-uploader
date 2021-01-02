@@ -1,7 +1,7 @@
-import React from "react";
-import "../Styles/";
+import React, { Component } from "react";
+import "../Styles/FilterOptions.css";
 
-export default class FilterOptions extends React.Component {
+export default class FilterOptions extends Component {
   render() {
     return <div className="FilterOptions" />;
   }

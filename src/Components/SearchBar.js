@@ -1,9 +1,9 @@
-import React from "react";
+import React, { Component } from "react";
 import "../Styles/SearchBar.css";
 import SearchBox from "./SearchBox";
 import FilterOptions from "./FilterOptions";
 
-export default class SearchBar extends React.Component {
+export default class SearchBar extends Component {
   render() {
     return (
       <div className="SearchBar">

@@ -1,9 +1,9 @@
-import React from "react";
+import React, { Component } from "react";
 import "../Styles/App.css";
 import SearchBar from "./SearchBar";
 import FiterableList from "./FilterableList";
 
-export default class App extends React.Component {
+export default class App extends Component {
   render() {
     return (
       <div className="App">
