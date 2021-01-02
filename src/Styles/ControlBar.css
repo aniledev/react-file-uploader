@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   border: solid 1px rgba(0, 0, 0, 0.1);
-  width: 90px;
+  width: 100px;
   justify-content: space-between;
   border-radius: 3px;
   margin: 2px;
@@ -14,6 +14,7 @@
   padding: 2px;
 }
 
+/* Following 2 declarations gives the buttons the boxed off look*/
 .ControlBar__btn:last-child {
   border-left: solid 1px rgba(0, 0, 0, 0.1);
 }
