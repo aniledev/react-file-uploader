@@ -53,7 +53,7 @@
 
 .ListItem__status {
   flex: 1;
-  font-size: 0.9em;
+  font-size: 1em;
   color: lightblue;
   text-align: left;
 }
