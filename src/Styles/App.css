@@ -1,9 +1,13 @@
 .App {
   text-align: center;
+  /* Setting the width equivalent and less than 100% is a way to give containers margins*/
   width: 90%;
   height: 90%;
+  /* Position relative and top declaraction essentially shifts the .App container down 20 px while not reducing the size of the .App container*/
   position: relative;
   top: 20px;
+  /* Centers the .App centrally within parent container; top and bottom margins set to 0, left and right automatically determined by the browser */
   margin: 0 auto;
+  /* Give the .App container with a blur and spread radius*/
   box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
 }
