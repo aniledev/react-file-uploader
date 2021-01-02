@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "../Styles/FilterableList.css";
 import ListItem from "./ListItem";
 
-export default class FIlterableList extends Component {
+export default class FilterableList extends Component {
   render() {
     // CREAT A VARIABLE TO HOLD DATA FROM PROPS
     const LIST = this.props.files.map((file, key) => (
@@ -14,6 +14,6 @@ export default class FIlterableList extends Component {
 }
 
 // ESTABLISH DEFAULT PROPS
-FIlterableList.defaultProps = {
+FilterableList.defaultProps = {
   files: [],
 };
