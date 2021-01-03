@@ -20,6 +20,12 @@ export default class App extends Component {
     });
   }
 
+  updateFilterOption(option) {
+    this.setState({
+      filterOption: option,
+    });
+  }
+
   render() {
     return (
       <div className="App">
