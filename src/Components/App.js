@@ -26,6 +26,7 @@ export default class App extends Component {
         <SearchBar
           searchTerm={this.state.searchTerm}
           filterOption={this.state.filterOption}
+          handleUpdate={(term) => this.updateSearchTerm(term)}
         />
         {/* pass files prop along to FilterableList */}
         {/* SearchBar also gets passed state because this is where searchTerm is updated */}
