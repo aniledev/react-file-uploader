@@ -16,8 +16,17 @@ export default class App extends Component {
   render() {
     return (
       <div className="App">
-        <SearchBar /> {/* pass files prop along to FilterableList */}
-        <FilterableList files={this.props.files} />
+        <SearchBar
+          searchTerm={this.state.searchTerm}
+          filterOption={this.state.filterOption}
+        />
+        {/* pass files prop along to FilterableList */}
+        {/* SearchBar also gets passed state because this is where searchTerm is updated */}
+        <FilterableList
+          files={this.props.files}
+          searchTerm={this.state.searchTerm}
+          filterOption={this.state.filterOption}
+        />
       </div>
     );
   }
