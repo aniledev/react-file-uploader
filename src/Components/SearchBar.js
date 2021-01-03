@@ -4,7 +4,7 @@ import SearchBox from "./SearchBox";
 import FilterOptions from "./FilterOptions";
 
 // THIS IS THE SECOND COMPONENT THAT IS GETTING SEARCHTERM AND FILTEROPTION AS PROPS IS THE SEARCHBAR COMPONENT
-// PASS PROPS DOWN TO SEARCHBOX
+// PASS
 export default class SearchBar extends Component {
   render() {
     return (
@@ -13,8 +13,11 @@ export default class SearchBar extends Component {
           <h1>File Uploader</h1>
         </div>
         <div className="SearchBar__controls">
-          <SearchBox searchTerm={this.props.searchTerm} />
-          <FilterOptions filterOption={this.props.filterOption} />
+          <SearchBox
+            searchTerm={this.props.searchTerm}
+            handleUpdate={this.props.handleUpdate}
+          />
+          <FilterOptions />
         </div>
       </div>
     );
