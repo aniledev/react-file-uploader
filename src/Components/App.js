@@ -13,6 +13,13 @@ export default class App extends Component {
     };
   }
 
+  // CREATE A METHOD TO UPDATE STATE
+  updateSearchTerm(term) {
+    this.setState({
+      searchTerm: term,
+    });
+  }
+
   render() {
     return (
       <div className="App">
