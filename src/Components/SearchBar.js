@@ -17,7 +17,10 @@ export default class SearchBar extends Component {
             searchTerm={this.props.searchTerm}
             handleUpdate={this.props.handleUpdate}
           />
-          <FilterOptions />
+          <FilterOptions
+            filterOption={this.props.filterOption}
+            handleFilterChange={this.props.handleFilterChange}
+          />
         </div>
       </div>
     );
