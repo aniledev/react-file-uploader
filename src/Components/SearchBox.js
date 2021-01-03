@@ -9,8 +9,12 @@ export default class SearchBox extends Component {
     return (
       <div className="SearchBox">
         <FontAwesomeIcon icon={faSearch} />
-        {/* USE VALUE TO GET THE VALUE OF THE INPUT*/}
-        <input placeholder="Search term" value={this.props.searchTerm} />
+        {/* USE VALUE TO GET THE VALUE OF THE INPUT AND ADD AN ONCHANGE EVENT HANDLER TO THE INPUT*/}
+        <input
+          placeholder="Search term"
+          value={this.props.searchTerm}
+          onChange={(e) => this.props.handleUpdate(e.target.value)}
+        />
       </div>
     );
   }
