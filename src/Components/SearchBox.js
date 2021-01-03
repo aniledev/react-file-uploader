@@ -9,7 +9,8 @@ export default class SearchBox extends Component {
     return (
       <div className="SearchBox">
         <FontAwesomeIcon icon={faSearch} />
-        <input placeholder="Search term" />
+        {/* USE VALUE TO GET THE VALUE OF THE INPUT*/}
+        <input placeholder="Search term" value={this.props.searchTerm} />
       </div>
     );
   }
