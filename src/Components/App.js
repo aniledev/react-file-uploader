@@ -33,6 +33,7 @@ export default class App extends Component {
           searchTerm={this.state.searchTerm}
           filterOption={this.state.filterOption}
           handleUpdate={(term) => this.updateSearchTerm(term)}
+          handleFilterChange={(option) => this.updateFilterOption(option)}
         />
         {/* pass files prop along to FilterableList */}
         {/* SearchBar also gets passed state because this is where searchTerm is updated */}
