@@ -47,3 +47,10 @@ $ npm install @fortawesome/fontawesome-svg-core
 $ npm install @fortawesome/free-solid-svg-icons
 $ npm install @fortawesome/react-fontawesome
 */
+
+/*
+NEXT FEATURES
+ - ADD A METHOD THAT ALLOWS YOU TO ADD FILES
+ - ADD A METHOD THAT ALLOWS YOU TO DELETE FILES
+ - ACTUALLY IMPLEMENT FILE SYSTEM TO THIS APPLICATION
+*/
