@@ -17,6 +17,7 @@ export default class FilterOptions extends Component {
               id="filter_all"
               name="filter"
               checked={filterOption === "All"}
+              onChange={(e) => this.props.handleFilterChange(e.target.value)}
               // IF FILTEROPTION === ALL, THEN THIS EVALUATES TO CHECKED={TRUE}
             />
             All
@@ -30,6 +31,7 @@ export default class FilterOptions extends Component {
               id="filter_uploaded"
               name="filter"
               checked={filterOption === "Uploaded"}
+              onChange={(e) => this.props.handleFilterChange(e.target.value)}
             />
             Uploaded
           </label>
@@ -42,6 +44,7 @@ export default class FilterOptions extends Component {
               id="filter_synced"
               name="filter"
               checked={filterOption === "Synced"}
+              onChange={(e) => this.props.handleFilterChange(e.target.value)}
             />
             Synced
           </label>
@@ -54,6 +57,7 @@ export default class FilterOptions extends Component {
               id="filter_new"
               name="filter"
               checked={filterOption === "New"}
+              onChange={(e) => this.props.handleFilterChange(e.target.value)}
             />
             New
           </label>
